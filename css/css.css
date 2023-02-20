@@ -1,41 +1,46 @@
-
-.container{
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
     width: 1000px;
     margin: 0 auto;
 }
 
-.container .header{
+.container .header {
     background-image: url(../image/VINHDINH.jpg);
     height: 231px;
     background-repeat: no-repeat;
     position: relative;
 }
 
-.container .header img{
+.container .header img {
     position: absolute;
-    top:-35px;
+    top: -35px;
     left: -120px;
     height: 150%;
 }
 
-.menu{
+.menu {
     min-height: 40px;
-    background-color: red;;
+    background-color: red;
+    ;
 }
 
-.menu ul{
+.menu ul {
     list-style: none;
-    background-color:rgb(0, 68, 255);
+    background-color: rgb(0, 68, 255);
     text-align: center;
     border-radius: 5px;
 }
 
-.menu ul li{
+.menu ul li {
     display: inline-block;
-    position: relative;  
+    position: relative;
 }
 
-.menu ul li a{
+.menu ul li a {
     display: block;
     text-decoration: none;
     font-variant: small-caps;
@@ -46,11 +51,12 @@
 }
 
 
-.menu ul li a:hover{
-    background-color:  red;
+.menu ul li a:hover {
+    background-color: red;
     text-shadow: 0 0 2px rgb(1, 52, 255);
 }
-.menu ul ul{
+
+.menu ul ul {
     position: absolute;
     display: none;
     list-style: none;
@@ -61,11 +67,11 @@
     text-align: left;
 }
 
-.menu ul ul li{
+.menu ul ul li {
     display: block;
 }
 
-.menu ul ul a{
+.menu ul ul a {
     display: block;
     color: blue;
     text-decoration: none;
@@ -76,72 +82,150 @@
     z-index: 1000;
 }
 
-.menu ul ul a:hover{
-    color:rgb(255, 2, 2);
-    background-color:white;
+.menu ul ul a:hover {
+    color: rgb(255, 2, 2);
+    background-color: white;
 }
 
-.menu ul li:hover ul{
+.menu ul li:hover ul {
     display: block;
 }
 
-marquee{
+marquee {
     line-height: 25px;
     min-height: 25px;
     z-index: -1;
 }
 
-.content{
+.content {
     width: 100%;
     height: auto;
     min-height: 800px;
 }
 
-.content article{
-    width: 100%;
-    float: left;
-    background-color: rgb(255, 255, 255);
+.content article {
+    width: 75%;
+    float: right;
+    background-color: rgb(131, 222, 255);
     min-height: 800px;
 }
 
-.content article iframe[name=page]{
+.content article iframe[name=page] {
     width: 100%;
     height: 800px;
 }
 
-.content aside{
+.content aside {
     width: 25%;
-    float: right;
-    background-color: lightgoldenrodyellow;
+    float: left;
+    background-color: rgb(255, 232, 149);
     min-height: 800px;
+    margin-bottom: 10px;
 }
-.widthR img{
+
+.widthR img {
     width: 100%;
     padding: 10px 0;
 }
 
-.widthR img:hover{
-    box-shadow: 0 2px 1px gray;
+.widthR img:hover {
+    box-shadow: 0 5px 5px gray;
 }
 
+.bang .widthR {
+    width: 100%
+}
 
+.bang ul {
+    list-style: none;
+}
+.bang ul a{
+    display: block;
+    background-image: url("../image1/button-removebg-preview.png");
+    background-size: 15px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding:5px 40px;
+    text-decoration: none;
+}
+.bang ul a:hover{
+    colorz: blue;
+    text-shadow: 0 0 1px blue;
+    background-image: url("../image1/next-removebg-preview.png");
+    background-size: 15px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
 
-footer{
+footer {
     clear: both;
     min-height: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(50, 91, 255);
     text-align: center;
     line-height: 50px;
-    border-top: 1px dotted white;
+    border-top: 1px dotted rgb(0, 26, 255);
 }
-.abc{
-    right: 3000px;
-    top:0px;
+
+.abc {
+
+    right: 200px;
+    top: 0px;
 
 }
-.abc1{
-    top:50px;
+
+.abc1 {
+    position: absolute;
+    Bottom: 60px;
+    left: 300px;
+
 }
-.chu{
+
+.chu {
     font-style: bold;
 }
+.slide {
+    height: 45px;
+    background-color: #1a8fe8;
+    border-radius: 0px;
+}
+.timkiem {
+    width: 210px;
+    height: 0;
+    right: 20px;
+    float: right;
+    margin-top: -15px;
+}
+
+marquee#mq1 {
+    margin-left: 290px;
+}
+.hinhanh{
+    margin: 0px auto;
+    image-resolution: none;
+}
+marquee p {
+    line-height: 30px;
+    display: block;
+    color: #ffff00;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.bando {
+    height: 50px;
+    background-color: #1a8fe8;
+    border-radius: 15px 15px 0px 0px;
+    border: 0.5px solid white;
+    box-shadow: 0px 0px 5px grey;
+}
+iframe {
+    overflow-clip-margin: content-box !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    overflow: clip !important;
+}
+
+
