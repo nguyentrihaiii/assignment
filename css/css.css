@@ -1,8 +1,9 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 .container {
     width: 1000px;
     margin: 0 auto;
@@ -139,16 +140,18 @@ marquee {
 .bang ul {
     list-style: none;
 }
-.bang ul a{
+
+.bang ul a {
     display: block;
     background-image: url("../image1/button-removebg-preview.png");
     background-size: 15px;
     background-position: 10px center;
     background-repeat: no-repeat;
-    padding:5px 40px;
+    padding: 5px 40px;
     text-decoration: none;
 }
-.bang ul a:hover{
+
+.bang ul a:hover {
     colorz: blue;
     text-shadow: 0 0 1px blue;
     background-image: url("../image1/next-removebg-preview.png");
@@ -183,11 +186,13 @@ footer {
 .chu {
     font-style: bold;
 }
+
 .slide {
     height: 45px;
     background-color: #1a8fe8;
     border-radius: 0px;
 }
+
 .timkiem {
     width: 210px;
     height: 0;
@@ -199,10 +204,12 @@ footer {
 marquee#mq1 {
     margin-left: 290px;
 }
-.hinhanh{
+
+.hinhanh {
     margin: 0px auto;
     image-resolution: none;
 }
+
 marquee p {
     line-height: 30px;
     display: block;
@@ -220,4 +227,15 @@ marquee p {
     box-shadow: 0px 0px 5px grey;
 }
 
-
+.header{
+    min-width: 100;
+        overflow: hidden;
+        background-image: url(/image/VINHDINH.jpg) ;
+        background-size: cover;
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    float: 10px;
+    width: 15%;
+}
