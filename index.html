@@ -12,17 +12,18 @@
 <body>
     <div class="container">
         <div class="header">
-            <img  src="">
+            <img src="">
         </div>
-       
+
         <div class="slide">
-            <marquee id="mq1" direction="left" scrollamount="5" onmouseout="this.start();">
+            <marquee id="mq1" direction="right" scrollamount="5"  onmouseout="this.start();">
                 <p>Chào mừng các bạn đã đến với trang thông tin điện tử trường THPT Vĩnh Định.</p>
             </marquee>
             <div class="timkiem">
                 <input type="text" placeholder="Tìm kiếm...">
                 <button>Tìm<button>
             </div>
+
         </div>
         <div class="menu">
             <ul>
@@ -30,16 +31,16 @@
                 <li>
                     <a href="gioithieu.html" target="page">Giới thiệu |</a>
                     <ul>
-                        <li><a href="" target="page">Cơ cấu tổ chức</a></li>
-                        <li><a href="" target="page">Giới thiệu chung</a></li>
+                        <li><a href="cocautochuc.html" target="page">Cơ cấu tổ chức</a></li>
+                        <li><a href="gioithieuchung.html" target="page">Giới thiệu chung</a></li>
                         <li><a href="" target="page">Phân công nv BGH</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="tintuc.html" target="page">Tin Tức | </a>
                     <ul>
-                        <li><a href="" target="page">Tin tức từ sở</a></li>
-                        <li><a href="" target="page">Thông báo từ sở</a></li>
+                        <li><a href="tintutuso.html" target="page">Tin tức từ sở</a></li>
+                        <li><a href="thongbaotuso.html" target="page">Thông báo từ sở</a></li>
                         <li><a href="" target="page">Phương pháp dạy học</a></li>
                     </ul>
                 </li>
@@ -49,52 +50,70 @@
                     <a href="#">Liên Hệ |</a>
                     <ul>
                         <li><a href="lienhe.html" target="page">Form liên hệ</a></li>
-                        <li><a href="" target="page">contact</a></li>
+                        <li><a href="lienhe.html" target="page">contact</a></li>
                     </ul>
                 </li>
                 <li><a href="hoidap.html" target="page">Hỏi đáp | </a></li>
-                <li><a href="" target="page">Góp ý | </a></li>
+                <li><a href="tracuu.html" target="page">Tra cứu điểm | </a></li>
             </ul>
         </div>
         <!-----------------------Content-->
         <div class="content">
             <article>
-                <iframe src="trangchu.html" frameborder="0" name="page"></iframe>
+                <iframe src="trchu.html" frameborder="0" name="page"></iframe>
             </article>
+            <style>
+                #bs {
+                    font-style: italic;
+                    font-weight: bold;
+                    color:black;
+                    text-decoration: underline;
+                }
+
+                .day_calendar {
+                    background: none repeat scroll 0 0 #ECFAFC;
+                }
+            </style>
             <aside>
                 <div class="bang">
-                    <h1 style="text-align: center; width: 250px;
-                background-color: rgb(255, 14, 14);">THÔNG BÁO</h1>
+                    <h1>LỊCH CÔNG TÁC</h1>
                     <img class="widthR" src="image1/2023_01_16_05_45_121.jpg" width="200px" height="150px">
-                    <ul>
-                        <li><a href="#">KẾ HOẠCH ĐẠI HỘI CÔNG ĐOÀN TRƯỜNG NHIỆM KỲ 2023-2028</a></li>
-                        <li><a href="#">KẾ HOẠCH TỔ CHỨC LỄ KHAI GIẢNG NĂM HỌC 2022 - 2023 </a></li>
-                        <li><a href="#">Trường THPT Vĩnh Định tổ chức thành công Lễ sơ kết học kỳ I năm học 2022 –
-                                2023</a></li>
-                        <li><a href="#">LỊCH KIỂM TRA HỌC KỲ 2 NĂM HỌC 2022-2023</a></li>
-                        <li><a href="#">LỊCH CÔNG TÁC TUẦN 06, 2022-2023</a></li>
-                        <li><a href="#">THỜI KHÓA BIỂU NĂM HỌC 2022 - 2023 - LẦN 2 - ÁP DỤNG TỪ NGÀY 03/10/2022</a></li>
-                    </ul>
-                </div>
-                <div class="widthR">
-
+                    <marquee id="mq2" direction="up" scrollamount="1" onmouseover="this.stop();"
+                        onmouseout="this.start();">
+                        <ul>
+                            <p class="day_calendar" style="text-align: center;">Thứ 2 - Thứ 7</p>
+                            <p id="bs">Buổi sáng</p>
+                            <p style="color:rgb(255, 255, 255)">Chào cờ.</p>
+                            <p style="color:white">8h00: Trực báo cốt cán Tuần.</p>
+                            <p style="color:white">Kế toán dự tập huấn nghiệp vụ đến hết ngày 21/02/2023.</p>
+                            <p id="bs">Buổi chiều</p>
+                            <p style="color:white">TTCM/NTCM dự sinh hoạt chuyên môn cụm theo lịch của Sở.</p>
+                            <p style="color:white">Tiết 10: HĐTNHN – Sinh hoạt dưới cờ.</p>
+                            <p style="color:white">Trường trung học phổ thông Vĩnh Định</p>
+                        </ul>
+                    </marquee>
                 </div>
                 <div>
                     <h1 style="text-align:center">Video hoạt động</h1>
-                    <iframe width="250px" src="https://www.youtube.com/embed/NKUL7NKgH8Y" title="YouTube video player"
-                        frameborder="0"
+                 <iframe width="250" src="https://www.youtube.com/embed/NlrYe__kDvE" stop
+                        title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                        allowfullscreen>
+                    </iframe>
+               
+                    <img height="54" src="image2/c-fakepaththoikhoabieu.png" title="Thời Khóa Biểu"
+                        style="padding: 0%;">
                 </div>
             </aside>
         </div>
-
-        <footer style="color:white">
+        <script src="https://uhchat.net/code.php?f=c5e887"></script>
+        <footer style="color:white;">
             Trường trung học phổ thông Vĩnh Định<br>
             Địa chỉ: Xã Triệu Trung, huyện Triệu Phong, tỉnh Quảng Trị - SĐT: 02333829451<br>
-            Copyright © 2022-2023. Do sinh viên Nguyễn Trí Hải MASV PD09021 thực hiện.
+            Copyright © 2023-2024. Do sinh viên Nguyễn Trí Hải - MSSV PD09021 thực hiện <br>
+            <a style="text-decoration: none;" href="http://thptvinhdinh.quangtri.edu.vn/">Phát trển bởi Trung Tâm CNTT & Truyền Thông Quảng Trị</a>
         </footer>
-    </div>
+
 </body>
 
 </html>

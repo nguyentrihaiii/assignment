@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#right {
+    width: 350px;
+    float: right;
+   
+}
+#left{
+    width:380px;
+    float: left;
+}
+.title3 {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+    margin-bottom: 5px;
+}
+
+.title3 h3 {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    background-color: #1a8fe8;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 5px grey;
+}
+
+:host([direction="up"]),
+:host([direction="down"]) {
+    overflow: initial;
+    overflow-y: hidden;
+    white-space: initial;
+}
+
+:host {
+    display: inline-block;
+
+    text-align: initial;
+
+}
+
+marquee {
+    width: -webkit-fill-available;
+}
+div {
+    display: block;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.title3 ul li {
+    list-style: none;
+}
+.title4 {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+    margin-bottom: 5px;
+}
+.title4 h3 {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    background-color: #1a8fe8;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 5px grey;
+}
+.title4 ul li {
+    list-style: none;
+}
+
+.title5 {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+    margin-top: 10px;
+    float: RIGHT;
+}
+.title5 h3 {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    background-color: #1a8fe8;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 5px grey;
+}
+.title5 ul li {
+    list-style: none;
+}
+.noidung2 {
+    height: 330px;
+    border-radius: 15px;
+    margin: 10px;
+    position: relative;
+}
+.noidung2 div {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px gray;
+}
+.noidung2 a {
+    text-decoration: none;
+    color: rgb(2, 2, 167);
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.noidung2 p.noidungkhac {
+    color: gray;
+    position: absolute;
+    top: 240px;
+    left: 10px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.noidung2 ul {
+    position: absolute;
+    top: 255px;
+    left: 25px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}

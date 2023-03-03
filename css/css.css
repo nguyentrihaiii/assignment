@@ -14,6 +14,10 @@
     height: 231px;
     background-repeat: no-repeat;
     position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+    margin-top: 10px;
 }
 
 .container .header img {
@@ -30,8 +34,15 @@
 }
 
 .menu ul {
+
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    background-color: #1a8fe8;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 5px grey;
     list-style: none;
-    background-color: rgb(0, 68, 255);
     text-align: center;
     border-radius: 5px;
 }
@@ -107,19 +118,19 @@ marquee {
 .content article {
     width: 75%;
     float: right;
-    background-color: rgb(131, 222, 255);
+    background-color: rgb(176, 234, 255);
     min-height: 800px;
 }
 
 .content article iframe[name=page] {
     width: 100%;
-    height: 800px;
+    height: 810px;
 }
 
 .content aside {
     width: 25%;
-    float: left;
-    background-color: rgb(255, 232, 149);
+    float:left;
+    background-color: rgb(107, 182, 252);
     min-height: 800px;
     margin-bottom: 10px;
 }
@@ -136,14 +147,19 @@ marquee {
 .bang .widthR {
     width: 100%
 }
+.bang{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+    margin-bottom: 5px;
+}
 
 .bang ul {
-    list-style: none;
+        margin-inline-start: 0px;
 }
 
 .bang ul a {
     display: block;
-    background-image: url("../image1/button-removebg-preview.png");
     background-size: 15px;
     background-position: 10px center;
     background-repeat: no-repeat;
@@ -152,21 +168,23 @@ marquee {
 }
 
 .bang ul a:hover {
-    colorz: blue;
-    text-shadow: 0 0 1px blue;
-    background-image: url("../image1/next-removebg-preview.png");
     background-size: 15px;
     background-position: 10px center;
     background-repeat: no-repeat;
+}
+.bang ul li {
+    list-style: none;
 }
 
 footer {
     clear: both;
     min-height: 50px;
-    background-color: rgb(50, 91, 255);
     text-align: center;
     line-height: 50px;
-    border-top: 1px dotted rgb(0, 26, 255);
+    border-top: 1px dotted  #1a8fe8;
+    background-color: #1a8fe8;
+    border-radius: 10px 10px 0px 0px;
+
 }
 
 .abc {
@@ -189,8 +207,11 @@ footer {
 
 .slide {
     height: 45px;
-    background-color: #1a8fe8;
+    background-color: rgb(176, 234, 255);
     border-radius: 0px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
 }
 
 .timkiem {
@@ -203,6 +224,7 @@ footer {
 
 marquee#mq1 {
     margin-left: 290px;
+    
 }
 
 .hinhanh {
@@ -213,29 +235,49 @@ marquee#mq1 {
 marquee p {
     line-height: 30px;
     display: block;
-    color: #ffff00;
+    color: #207ae3;
     font-size: 12px;
     font-weight: bold;
 }
+  
+
 
 
 .bando {
-    height: 50px;
+    top: 20px;
+    height: 0px;
     background-color: #1a8fe8;
     border-radius: 15px 15px 0px 0px;
     border: 0.5px solid white;
     box-shadow: 0px 0px 5px grey;
 }
 
-.header{
-    min-width: 100;
-        overflow: hidden;
-        background-image: url(/image/VINHDINH.jpg) ;
-        background-size: cover;
+.header {
+    min-width: 80px;
+    overflow: hidden;
+    background-image: url(/image/VINHDINH.jpg);
+    background-size: cover;
 }
-.logo {
-    position: absolute;
-    top: 30px;
-    float: 10px;
-    width: 15%;
+
+.gio {
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 30px;
+    vertical-align: middle;
+    padding-left: 10px;
+    width: 100px;
 }
+
+h1 {
+
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    background-color: #1a8fe8;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 5px grey;
+
+}
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    line-height: 18px;
+}
+.top-main {
+    background: #3d7ac1;
+}
+.wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+.logo {
+    height: 115px;
+    position: relative;
+}
+.logo h1 {
+    position: absolute;
+    left: 10px;
+    top: 16px;
+}
+.logo h1 a {
+    height: 65px;
+    background: url(image/logo.png) no-repeat;
+    display: block;
+    padding: 4px 0 20px 120px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffed46;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+.content-main {
+    background: #efefef;
+    margin: 0px auto 35px;
+    width: 720px;
+    border-radius: 5px;
+    border: 1px solid #a09c9c;
+}
+.q-info {
+    margin: 20px 0;
+    font-size: 18px;
+}
+.q-list label {
+    width: 150px;
+}
+.q-list li{
+    padding: 7px 0;
+}
+.form-reg label {
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    color: #555;
+}
+.footer-main {
+    background: #3d7ac1;
+    border-top: 1px solid #D5D5D5;
+}
+.form-reg li {
+   
+}
+.e-input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    height: 20px;
+    color: #333;
+    font-size: 13px;
+    width: 300px;
+}
+.q-list h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+</style>
+<body>
+    <body>
+        <!--//--Header----------------->
+        <div class="top-main">
+            <div class="wrap">
+                <div class="logo">
+                    <h1>
+                        <a href="#" title="Trang thông tin kỳ thi tốt nghiệp THPT 2023">
+                            Hội đồng thi Sở GD&amp;ĐT Quảng Trị<br>
+                        <span>TRANG THÔNG TIN KỲ THI TỐT NGHIỆP THPT 2023</span>
+                    </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!--//--Main content----------------->
+    <div class="wrap">
+        <div class="q-info"><p></p></div>
+    </div>
+    <div class="content-main" style="min-height: 515.8px;">
+        <form id="SearchTSForm" method="post">
+            <div class="form-reg">
+                
+                <ul class="q-list">
+                    <br><h3 style="text-align:center;">Hội đồng thi Sở GD&amp;ĐT Quảng Trị</h3>
+                    <br><h2 style="text-align:center;">TRA CỨU ĐIỂM THI TỐT NGHIỆP THPT 2023</h2> <br>
+                        Thí sinh nhập số báo danh và mã xác nhận (phân biệt chữ hoa và chữ thường) vào các ô dưới đây
+                        <hr>
+                        <br><label>Số báo danh</label><input type="text" name="SOBAODANH" value="" class="e-input">
+                        <br>
+                            <label>Mã xác nhận </label>
+                            <input type="text" style="width: 107px;margin-left: -4px;" name="ConfirmCode" autocomplete="off" class="e-input">
+                            <img id="ImgCaptcha" style="border: solid 1px #808080; height: 30px;margin-top: -3px;vertical-align: middle;" src="image/GetCaptcha.png">
+                            <img id="refreshCaptcha" src="image/refresh.png" style="vertical-align: middle;cursor: pointer; width: 24px; height: 24px; margin-bottom: 8px; margin-left: 8px;">
+                       <br>
+                        <label>&nbsp;</label><input id="btnsubmit" type="button" onclick="dosubmit()" class="e-btn" value="Tra cứu"></li>
+                                
+                </ul>
+                
+            </div>
+        </form>
+    </div>
+    </body>
+</body>
+</html>
